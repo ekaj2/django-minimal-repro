@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     # 'django.contrib.staticfiles',   # <-- REMOVE (for django-components)
     'django_components',
     'django_components.safer_staticfiles',  # <-- ADD (for django-components)
+    # 'template_partials',  # uncomment this and it breaks
     "polls"
 ]
 
